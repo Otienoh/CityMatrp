@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/bg1" >
+
+  
+<EditText
+        android:id="@+id/name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="First Name " />
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Last Name " />
+
+    <EditText
+        android:id="@+id/routeno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:ems="10" 
+        android:hint="Route No "/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Email " />
+
+  <EditText
+        android:id="@+id/pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password "
+        android:inputType="textPassword" />
+
+>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mobile " />
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="60dp"
+        android:background="#e0ccff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/msn" 
+            android:text="Add" />
+	
+	     
+		</LinearLayout>
+		
+		</LinearLayout>

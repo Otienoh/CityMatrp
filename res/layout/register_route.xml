@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/bg1">
+
+     <TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ROUTE REGISTRATION"
+android:layout_marginLeft="60dp"
+android:layout_marginBottom="20dp"
+android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/routenoet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10" 
+        android:hint="Route No "/>
+
+    
+
+    <EditText
+        android:id="@+id/routefareet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:hint="Route Fare "
+         android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/routediret"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10" 
+        android:hint="Route Director "/>
+<EditText
+        android:id="@+id/locationet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10"
+         android:hint="Location " />
+
+    <EditText
+        android:id="@+id/hotet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10"
+         android:hint="Hotline " />
+ 
+        <requestFocus />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:background="#e0ccff"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/homeswitcher" 
+            android:text="Add" />
+	
+	     
+		</LinearLayout>
+</LinearLayout>

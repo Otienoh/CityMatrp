@@ -1,0 +1,87 @@
+		<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#e0ccff" >
+        
+    <LinearLayout
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   android:background="@drawable/bg1"
+    tools:context=".MainActivity" >
+
+	<Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/location_arrays"
+        android:prompt="@string/location_prompt" /> 
+        
+     <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+	<EditText
+        android:id="@+id/routeno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Route No." >
+
+        <requestFocus />
+    </EditText>
+
+     
+     <EditText
+        android:id="@+id/routefare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10" 
+         android:hint="Route Fare">
+
+        <requestFocus />
+    </EditText>
+ 
+     <EditText
+        android:id="@+id/routedirector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Route Director" >
+
+        <requestFocus />
+    </EditText>
+  <EditText
+        android:id="@+id/Hotlines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10" 
+         android:hint="Route Hotlines">
+
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/map"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:drawableRight="@drawable/maps" 
+         android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+         android:text="Click to View Map" />
+
+</LinearLayout>
+</ScrollView>

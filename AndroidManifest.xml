@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tublar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+  
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        
+         <activity android:name=".Tab1activity"  />
+        <activity android:name=".Tab2activity" />
+        <activity android:name=".Tab2activityy" />
+        <activity android:name=".Contactsms" />
+        <activity android:name=".Tab3activityy" />
+        <activity android:name=".Adminhome"/>
+         <activity android:name=".Addroutee"/>
+           <activity android:name=".Adddirector" />
+           <activity android:name=".Dirhome"  />
+            <activity android:name=".Addmat" />
+        <activity android:name=".Tab4activity" />
+        
+       
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>  
+        <activity
+            android:name="com.example.tublar.MainActivity"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="com.example.tublar.SPLASH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter> 
+        </activity>
+      <service android:name=".VibrateService"/>
+    </application>
+
+</manifest>

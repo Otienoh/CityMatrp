@@ -1,0 +1,47 @@
+	<ScrollView
+	       xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e0ccff" >
+        
+ <LinearLayout
+ 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+
+	<EditText
+        android:id="@+id/regno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Registration No." />
+        
+     <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+	<ListView
+        android:id="@+id/lv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+     
+ 
+      
+<Button android:id="@+id/contact"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:drawableRight="@drawable/sms" 
+android:text="Contact route director"/>
+
+</LinearLayout>
+
+    
+</ScrollView>
