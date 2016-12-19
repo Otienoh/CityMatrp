@@ -1,6 +1,7 @@
 #CityMatrp 
 ##Brief
-[logo]: https://github.com/Otienoh/CityMatrp/res/drawable-hdpi/splashimg.png "Splash Image"
+![Splash Image](https://github.com/Otienoh/CityMatrp/res/drawable-hdpi/splashimg.png "Splash Image")
+
 
 CityMatrp is a Mobile Route Management System aiming to avail information about matatus, connections, routes, online route maps for free. 
 Web Presence
@@ -21,9 +22,14 @@ This is a project I did in the second year of my degree program. It has been liv
 
 ##Screenshots
 ___
-[logo]: https://github.com/Otienoh/CityMatrp/screenshots/Matatu_route_search.png "Matatu route search"
-[logo]: https://github.com/Otienoh/CityMatrp/screenshots/Route_director_login.png "Route director login"
-[logo]: https://github.com/Otienoh/CityMatrp/screenshots/administrator_dashboard.png "administrator dashboard"
+![Matatu route search](https://github.com/Otienoh/CityMatrp/screenshots/Matatu_route_search.png  "Matatu route search")
+Matatu route search
+
+![Matatu route search](https://github.com/Otienoh/CityMatrp/screenshots/Route_director_login.png "Route director login")
+Route director login
+
+![Matatu route search](https://github.com/Otienoh/CityMatrp/screenshots/administrator_dashboard.png "administrator dashboard")
+administrator dashboard
 ___
 
 ##Finally Let's Talk
