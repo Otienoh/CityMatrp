@@ -28,13 +28,13 @@ Matatu route search
 ![Matatu route search](/screenshots/Route_director_login.png?raw=true "Route director login")
 Route director login
 
-![Matatu route search](/CityMatrp/screenshots/administrator_dashboard.png?raw=true "administrator dashboard")
+![Matatu route search](/screenshots/administrator_dashboard.png?raw=true "administrator dashboard")
 administrator dashboard
 ___
 
 ##Finally Let's Talk
 The aim of the project was accomplished and a Mobile Route Management System aiming to avail information about matatus, connections, routes, online route maps and for free developed. However all the work done for this project hardly solve major issues with matatus in the city, and much further work can be done on this project. Anyone interested to continue working on this can contact me [](otienojulie@gmail.com) for further questions.
 
-[Documentation link] https://speakerdeck.com/otienoh/
+[Documentation link](http://www.slideshare.net/julieeustine1/final-documentation-second-year-project)
 
 #THANK YOU 
